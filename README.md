@@ -1,7 +1,7 @@
 # CSS-Tools Extension
 visually create shadows, border radius and transforms while interacting with page elements in real time.
 ![preview](preview.png)
-[View Demo](https://raw.githubusercontent.com/0shuvo0/css-tools-ext/demo.mp4)
+[View Demo](https://github.com/0shuvo0/css-tools-ext/blob/main/demo.mp4)
 
 See [Web Version](https://0shuvo0.github.io/css-tools/)
 
