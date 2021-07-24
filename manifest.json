@@ -1,0 +1,26 @@
+{
+    "name": "Design Tools",
+    "description": "A set of useful tools to help you with CSS.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icons/favicon-16x16.png",
+        "48": "icons/android-icon-48x48.png",
+       "128": "icons/apple-icon-144x144.png"
+    },
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup/index.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
